@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import store from "/images/lumi.png";
 
 export default function LocationSection() {
   const [isVisible, setIsVisible] = useState(false);
@@ -192,7 +193,7 @@ export default function LocationSection() {
           >
             <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1516733968668-dbdce39c4651?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                src={store}
                 alt="Lumi Coffee exterior"
                 className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
               />
